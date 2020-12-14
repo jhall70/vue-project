@@ -1,15 +1,15 @@
 <template>
-  <Reusable title="TOP"/>
-  <Reusable title="MIDDLE"/>
-  <Reusable title="BOTTOM"/>
+  <ReusableSnippet title="TOP"/>
+  <ReusableSnippet title="MIDDLE"/>
+  <ReusableSnippet title="BOTTOM"/>
 </template>
 
 <script>
-import Reusable from '@/components/Reusable.vue';
+import ReusableSnippet from '@/components/ReusableSnippet.vue';
 
 export default {
   components: {
-    Reusable,
+    ReusableSnippet,
   },
 };
 </script>
